@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Buffalo - Tabler</title>
+    <%= stylesheetTag("application.css") %>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="<%= authenticity_token %>" />
+  </head>
+
+  <body>
+    <%= javascriptTag("common/tabler/demo-theme.js") %>
+
+    <div class="page">
+
+      <%= partial("partials/layout/sidebar.html") %>
+      <%= partial("partials/layout/navbar.html") %>
+
+      <div class="page-wrapper">
+        <%= yield %>
+        <%= partial("partials/layout/footer.html") %>
+      </div>
+
+    </div>
+
+    <%= javascriptTag("application.js") %>
+    <%= javascriptTag("common/tabler/tabler.js") %>
+    <%= javascriptTag("common/tabler/demo.js") %>
+
+  </body>
+
+</html>

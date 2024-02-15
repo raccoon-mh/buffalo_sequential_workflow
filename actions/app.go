@@ -63,10 +63,14 @@ func App() *buffalo.App {
 		// Setup and use translations:
 		app.Use(translations())
 
-		app.GET("/", HomeHandler)
+		// for debug
+		app.GET("/route", RouteHandler)
 		app.GET("/flow", WorkflowHandler)
 		app.GET("/tabler", TablerMainHandler)
 		app.GET("/tabler/{target}", TablerHandler)
+
+		// init
+		app.GET("/", HomeHandler)
 
 		app.ServeFiles("/", http.FS(public.FS())) // serve files from the public directory
 	}
