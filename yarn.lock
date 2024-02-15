@@ -1433,6 +1433,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@melloware/coloris@npm:^0.19.1":
+  version: 0.19.1
+  resolution: "@melloware/coloris@npm:0.19.1"
+  checksum: 10c0/a1171fe00381dcec18ff2bea6d44d406a17db9ece03e273f516e566f9f3830b189c83b9689caed584adef75be7fabf4cba0afb7ca4af7723d1cf7bf05c6183d8
+  languageName: node
+  linkType: hard
+
 "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3":
   version: 2.1.8-no-fsevents.3
   resolution: "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3"
@@ -1509,6 +1516,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@orchidjs/sifter@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@orchidjs/sifter@npm:1.0.3"
+  dependencies:
+    "@orchidjs/unicode-variants": "npm:^1.0.4"
+  checksum: 10c0/a0c4659ae7a8729ba7adef1b531e6dea394e9bba0309e3e803d66f6efa3d5d74c6d959540ccd8ae056b7283e1713f937cf81efede2b4ce6dddfa198a3a3f0a35
+  languageName: node
+  linkType: hard
+
+"@orchidjs/unicode-variants@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@orchidjs/unicode-variants@npm:1.0.4"
+  checksum: 10c0/b5e8362b6e98127db4ec9a1e02432f01ac2e679feb9d7cf47d7a77f65161c31cc2635bd511cc04ec7e3bb907fcdb1449ce3867245278c714e4d64ea989c49b9f
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -1516,10 +1539,88 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.0.0":
+"@popperjs/core@npm:^2.0.0, @popperjs/core@npm:^2.11.8":
   version: 2.11.8
   resolution: "@popperjs/core@npm:2.11.8"
   checksum: 10c0/4681e682abc006d25eb380d0cf3efc7557043f53b6aea7a5057d0d1e7df849a00e281cd8ea79c902a35a414d7919621fc2ba293ecec05f413598e0b23d5a1e63
+  languageName: node
+  linkType: hard
+
+"@swc/helpers@npm:^0.2.13":
+  version: 0.2.14
+  resolution: "@swc/helpers@npm:0.2.14"
+  checksum: 10c0/d89d240871ebcc72d6675ae9a4abebf8f1b58a68d0fa7c6a7c4a236b1cda42c4ac855f86d95f89be00be32007b4ce58c62dd33eae018fdd2449847a81068f841
+  languageName: node
+  linkType: hard
+
+"@tabler/core@npm:^1.0.0-beta20":
+  version: 1.0.0-beta20
+  resolution: "@tabler/core@npm:1.0.0-beta20"
+  dependencies:
+    "@popperjs/core": "npm:^2.11.8"
+    "@tabler/icons": "npm:^2.32.0"
+    bootstrap: "npm:5.3.1"
+  peerDependencies:
+    "@melloware/coloris": ^0.19.1
+    apexcharts: ^3.40.0
+    autosize: ^6.0.1
+    choices.js: ^10.2.0
+    countup.js: ^2.6.2
+    dropzone: ^6.0.0-beta.2
+    flatpickr: ^4.6.13
+    fslightbox: ^3.4.1
+    imask: ^6.6.1
+    jsvectormap: ^1.5.3
+    list.js: ^2.3.1
+    litepicker: ^2.0.12
+    nouislider: ^15.7.0
+    plyr: ^3.7.8
+    star-rating.js: ^4.3.0
+    tinymce: ^6.4.2
+    tom-select: ^2.2.2
+  peerDependenciesMeta:
+    "@melloware/coloris":
+      optional: true
+    apexcharts:
+      optional: true
+    autosize:
+      optional: true
+    choices.js:
+      optional: true
+    countup.js:
+      optional: true
+    dropzone:
+      optional: true
+    flatpickr:
+      optional: true
+    fslightbox:
+      optional: true
+    imask:
+      optional: true
+    jsvectormap:
+      optional: true
+    list.js:
+      optional: true
+    litepicker:
+      optional: true
+    nouislider:
+      optional: true
+    plyr:
+      optional: true
+    star-rating.js:
+      optional: true
+    tinymce:
+      optional: true
+    tom-select:
+      optional: true
+  checksum: 10c0/ac9eea3b38096b7852e8af197f4fd6b0c9adfb8a2e8349915c272e0fcc3729b5ef35713100351622b9e424524c11a996be24491d5dce76462d32dc4b11bbad80
+  languageName: node
+  linkType: hard
+
+"@tabler/icons@npm:^2.32.0":
+  version: 2.47.0
+  resolution: "@tabler/icons@npm:2.47.0"
+  checksum: 10c0/ffdffa1289ca958f7d7c06c19e35c51a664d916df510fb44fb673abc2031747f2b3c47e21ba4c1ca07a6872b793f2063179bbbfb6afd1c68b522ca333460a7f3
   languageName: node
   linkType: hard
 
@@ -1764,6 +1865,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yr/monotone-cubic-spline@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@yr/monotone-cubic-spline@npm:1.0.3"
+  checksum: 10c0/6098d2138dcf8b722c80f2e9167d24a064184c37fb5b3276e34c717351b496735777b71f7e69c3fa6b94f8a81eba309c4a1e37349a26b8541113b1afa84d7bf8
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -1924,6 +2032,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"apexcharts@npm:^3.45.2":
+  version: 3.45.2
+  resolution: "apexcharts@npm:3.45.2"
+  dependencies:
+    "@yr/monotone-cubic-spline": "npm:^1.0.3"
+    svg.draggable.js: "npm:^2.2.2"
+    svg.easing.js: "npm:^2.0.0"
+    svg.filter.js: "npm:^2.0.2"
+    svg.pathmorphing.js: "npm:^0.1.3"
+    svg.resize.js: "npm:^1.4.3"
+    svg.select.js: "npm:^3.0.1"
+  checksum: 10c0/fd0369104b360c516672c49f67f123505bcd1c2f462c51a04fc38740d2bb0c85fbfcc580171148e753e91c32aaaa3515541f87e725b091d974546472e86818b2
+  languageName: node
+  linkType: hard
+
 "aproba@npm:^1.1.1":
   version: 1.2.0
   resolution: "aproba@npm:1.2.0"
@@ -2057,6 +2180,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap@npm:5.3.1":
+  version: 5.3.1
+  resolution: "bootstrap@npm:5.3.1"
+  peerDependencies:
+    "@popperjs/core": ^2.11.8
+  checksum: 10c0/e39e98bed1aa69e4eeb983252951cfb508fdde37b2f5941a7af2029f2ed43d77e53749464eb1e649e5fb1169eb4e2f68a7753dec3f32bfed5e2204478b348e14
+  languageName: node
+  linkType: hard
+
 "bootstrap@npm:^5.0.0":
   version: 5.3.2
   resolution: "bootstrap@npm:5.3.2"
@@ -2116,26 +2248,40 @@ __metadata:
     "@babel/core": "npm:^7.0.0"
     "@babel/preset-env": "npm:^7.0.0"
     "@fortawesome/fontawesome-free": "npm:^5.12.0"
+    "@melloware/coloris": "npm:^0.19.1"
     "@popperjs/core": "npm:^2.0.0"
+    "@tabler/core": "npm:^1.0.0-beta20"
+    apexcharts: "npm:^3.45.2"
     autoprefixer: "npm:^9.7.6"
     babel-loader: "npm:^8.1.0"
     bootstrap: "npm:^5.0.0"
     copy-webpack-plugin: "npm:~6.4.1"
+    countup.js: "npm:^2.8.0"
     css-loader: "npm:~3.5.1"
+    dropzone: "npm:^6.0.0-beta.2"
     expose-loader: "npm:^3.0.0"
     file-loader: "npm:~6.0.0"
+    fslightbox: "npm:^3.4.1"
     glob: "npm:^7.2.0"
     gopherjs-loader: "npm:^0.0.1"
     jquery: "npm:^3.6.0"
     jquery-ujs: "npm:^1.2.2"
+    jsvectormap: "npm:^1.5.3"
+    list.js: "npm:^2.3.1"
+    litepicker: "npm:^2.0.12"
     mini-css-extract-plugin: "npm:^2.0.0"
+    nouislider: "npm:^15.7.1"
     npm-install-webpack-plugin: "npm:4.0.5"
+    plyr: "npm:^3.7.8"
     postcss-loader: "npm:^3.0.0"
     sass: "npm:^1.0.0"
     sass-loader: "npm:~10.2.0"
     sequential-workflow-designer: "npm:^0.18.5"
+    star-rating.js: "npm:^4.3.0"
     style-loader: "npm:~1.1.3"
     terser-webpack-plugin: "npm:~2.3.1"
+    tinymce: "npm:^6.8.3"
+    tom-select: "npm:^2.3.1"
     url-loader: "npm:~4.1.0"
     webpack: "npm:~5.65.0"
     webpack-cli: "npm:^4.0.0"
@@ -2483,6 +2629,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.26.1":
+  version: 3.36.0
+  resolution: "core-js@npm:3.36.0"
+  checksum: 10c0/62dcb41ba79ead581e4c5b2740ae18bfe6ee230e853893736d16edb01b580574d8645ff6c5513d1c75d59620f8451aee45c119d3c4f5ebc66cff5f003a816864
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -2499,6 +2652,13 @@ __metadata:
     js-yaml: "npm:^3.13.1"
     parse-json: "npm:^4.0.0"
   checksum: 10c0/ae9ba309cdbb42d0c9d63dad5c1dfa1c56bb8f818cb8633eea14fd2dbdc9f33393b77658ba96fdabda497bc943afed8c3371d1222afe613c518ba676fa624645
+  languageName: node
+  linkType: hard
+
+"countup.js@npm:^2.8.0":
+  version: 2.8.0
+  resolution: "countup.js@npm:2.8.0"
+  checksum: 10c0/793c2de67a585d708cb7f7e25ea0c9bc17e6e76cf724e34babdd5325b5602bd6882a00510d59e0f1f2fd14e69f882260e08780fa0662741df2abe0feaceda51f
   languageName: node
   linkType: hard
 
@@ -2556,6 +2716,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"custom-event-polyfill@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "custom-event-polyfill@npm:1.0.7"
+  checksum: 10c0/b73c90d646d78f4acdff5453fa0f165f6d5506e32d074ca57d27f2bb7d9412356dab8cec7c00a0956b069e4987a8546a2c2c4b866d155e9fc4c27d223a225b78
+  languageName: node
+  linkType: hard
+
 "debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
@@ -2588,12 +2755,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"detect-it@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "detect-it@npm:4.0.1"
+  checksum: 10c0/9633dcafaa28dfd61b5e8f2925ec5cd09fda19d99ff7ea062e22d7cc8b3a8dfccf5c5118b6e72940f15d8371bd5d696ea66cc0972d1a6cbee918d4b06448c359
+  languageName: node
+  linkType: hard
+
 "dir-glob@npm:^3.0.1":
   version: 3.0.1
   resolution: "dir-glob@npm:3.0.1"
   dependencies:
     path-type: "npm:^4.0.0"
   checksum: 10c0/dcac00920a4d503e38bb64001acb19df4efc14536ada475725e12f52c16777afdee4db827f55f13a908ee7efc0cb282e2e3dbaeeb98c0993dd93d1802d3bf00c
+  languageName: node
+  linkType: hard
+
+"dropzone@npm:^6.0.0-beta.2":
+  version: 6.0.0-beta.2
+  resolution: "dropzone@npm:6.0.0-beta.2"
+  dependencies:
+    "@swc/helpers": "npm:^0.2.13"
+    just-extend: "npm:^5.0.0"
+  checksum: 10c0/20ce4c9099b981e5bacc6704acc679f490e00ca158837ab4703ffad3253f00356a5d8a4b4439d35b0af019ca48bd0fe0ae8f514660686998129516a4d5d30211
   languageName: node
   linkType: hard
 
@@ -2993,6 +3177,13 @@ __metadata:
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"fslightbox@npm:^3.4.1":
+  version: 3.4.1
+  resolution: "fslightbox@npm:3.4.1"
+  checksum: 10c0/2453f16a4162fc3b98a8617a7e2ddadf080375fa7415f389825ee618ae722559c8a5c2d7e77ef24d501165492824c4f6776d8c2a4b67b245f1fa4a9fcebf26e2
   languageName: node
   linkType: hard
 
@@ -3576,6 +3767,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsvectormap@npm:^1.5.3":
+  version: 1.5.3
+  resolution: "jsvectormap@npm:1.5.3"
+  checksum: 10c0/e445cadbf38246aeec62d0bdbb9f05bb6b4658ddad2df23956f4956e1a1ae97c3f1abbee19558642532554d4f2e03f56861d60de4cfa1a45d67a24245119b90a
+  languageName: node
+  linkType: hard
+
+"just-extend@npm:^5.0.0":
+  version: 5.1.1
+  resolution: "just-extend@npm:5.1.1"
+  checksum: 10c0/3ff482415dd3a3e8425d5694f64341f70697721fc0467c00a9bcd5895aee4387d33ab4f94bf23c1e50c47f8b93aef3503c29e9f821bde1feb69a4d43da236767
+  languageName: node
+  linkType: hard
+
 "kind-of@npm:^6.0.2":
   version: 6.0.3
   resolution: "kind-of@npm:6.0.3"
@@ -3587,6 +3792,22 @@ __metadata:
   version: 2.0.6
   resolution: "klona@npm:2.0.6"
   checksum: 10c0/94eed2c6c2ce99f409df9186a96340558897b3e62a85afdc1ee39103954d2ebe1c1c4e9fe2b0952771771fa96d70055ede8b27962a7021406374fdb695fd4d01
+  languageName: node
+  linkType: hard
+
+"list.js@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "list.js@npm:2.3.1"
+  dependencies:
+    string-natural-compare: "npm:^2.0.2"
+  checksum: 10c0/8c404b15d84b2a14c059addef2276e4cb0eccfea4380c1c1e9f6fbbf5ea5347459be056868231392f1aed14abc0fbb674c7015bb33e39405af554e876472f7f3
+  languageName: node
+  linkType: hard
+
+"litepicker@npm:^2.0.12":
+  version: 2.0.12
+  resolution: "litepicker@npm:2.0.12"
+  checksum: 10c0/2d4094272b51228b51b8779bf69db6d207a5ded875158924fcdc41edc433340e02698b7f6f93ebe31707c0d212e117a2ba6863d516b6ebfea18ae9427a10ccce
   languageName: node
   linkType: hard
 
@@ -3623,6 +3844,13 @@ __metadata:
     emojis-list: "npm:^3.0.0"
     json5: "npm:^2.1.2"
   checksum: 10c0/d5654a77f9d339ec2a03d88221a5a695f337bf71eb8dea031b3223420bb818964ba8ed0069145c19b095f6c8b8fd386e602a3fc7ca987042bd8bb1dcc90d7100
+  languageName: node
+  linkType: hard
+
+"loadjs@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "loadjs@npm:4.2.0"
+  checksum: 10c0/da0dff873148ca0507e84fd5b975f95a015f1cc30552df1958b6f47c9c0e134f29df5cc88db3fed72faade725ce3954378365bd0df2092117e432df430fa4c97
   languageName: node
   linkType: hard
 
@@ -4009,6 +4237,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nouislider@npm:^15.7.1":
+  version: 15.7.1
+  resolution: "nouislider@npm:15.7.1"
+  checksum: 10c0/819751590d4309900964d4e34fc71726f50efeadd4b77c2db8ac747334446762de6897ba762d612b191b24f7846b0487c64b93f15ba4fd70319cc8d479dc5e9d
+  languageName: node
+  linkType: hard
+
 "npm-install-webpack-plugin@npm:4.0.5":
   version: 4.0.5
   resolution: "npm-install-webpack-plugin@npm:4.0.5"
@@ -4197,6 +4432,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"plyr@npm:^3.7.8":
+  version: 3.7.8
+  resolution: "plyr@npm:3.7.8"
+  dependencies:
+    core-js: "npm:^3.26.1"
+    custom-event-polyfill: "npm:^1.0.7"
+    loadjs: "npm:^4.2.0"
+    rangetouch: "npm:^2.0.1"
+    url-polyfill: "npm:^1.1.12"
+  checksum: 10c0/75c3e070f7829f76409e0d34784bf8070b827ad99c4713a36338af7ce8dff7cf38998403f34a4a0b4d6e99efd1856ee056443c7e838db1dbb98ed38828110a97
+  languageName: node
+  linkType: hard
+
 "portfinder@npm:^1.0.17":
   version: 1.0.32
   resolution: "portfinder@npm:1.0.32"
@@ -4372,6 +4620,13 @@ __metadata:
   dependencies:
     safe-buffer: "npm:^5.1.0"
   checksum: 10c0/50395efda7a8c94f5dffab564f9ff89736064d32addf0cc7e8bf5e4166f09f8ded7a0849ca6c2d2a59478f7d90f78f20d8048bca3cdf8be09d8e8a10790388f3
+  languageName: node
+  linkType: hard
+
+"rangetouch@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "rangetouch@npm:2.0.1"
+  checksum: 10c0/5f7947d1c5e95f50630ed1e0cbaeb4c32a6be37b66d864a68f7e70a4e86f782eb869df9fa2357b981b1301d2158eff50002a199b0fbbbf6e1746bc9d213914d9
   languageName: node
   linkType: hard
 
@@ -4952,6 +5207,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"star-rating.js@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "star-rating.js@npm:4.3.0"
+  dependencies:
+    detect-it: "npm:^4.0.0"
+  checksum: 10c0/be90a72e5192a83dce3ad9bffb01d001edd56f958e27b9e194c73d063ec4b2fa465272ae169d61141024e6f6a1ecd5d0b9bfce7d86a44a4db8202a4b9401a399
+  languageName: node
+  linkType: hard
+
+"string-natural-compare@npm:^2.0.2":
+  version: 2.0.3
+  resolution: "string-natural-compare@npm:2.0.3"
+  checksum: 10c0/dcdbc0ea522a7403f3808351f08bfb31542dfc7a66b2a6061fdf8e329adfab07b36fc2e6caf1ecf89bded73c0a317ba2f555f813db26a21106b593c6ae6a3ecf
+  languageName: node
+  linkType: hard
+
 "string-template@npm:~0.2.1":
   version: 0.2.1
   resolution: "string-template@npm:0.2.1"
@@ -5061,6 +5332,77 @@ __metadata:
   languageName: node
   linkType: hard
 
+"svg.draggable.js@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "svg.draggable.js@npm:2.2.2"
+  dependencies:
+    svg.js: "npm:^2.0.1"
+  checksum: 10c0/b21be608254cb10b56de2867883b11053caab477ffc0b5bc9aab7ae640293413c5ad68bd29c6eeed62e41f424576eb5e8b2ebc50056d7b05a060720446a34556
+  languageName: node
+  linkType: hard
+
+"svg.easing.js@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "svg.easing.js@npm:2.0.0"
+  dependencies:
+    svg.js: "npm:>=2.3.x"
+  checksum: 10c0/5c8b656d0c2956326e03e65448bd77e014b6acbe5fd50aa64ba983b40614145e66b4f27790698f4ef3e64d56498038ff5190ab5829772e823c64d5d70d8c953d
+  languageName: node
+  linkType: hard
+
+"svg.filter.js@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "svg.filter.js@npm:2.0.2"
+  dependencies:
+    svg.js: "npm:^2.2.5"
+  checksum: 10c0/c2b88f05bd2bd8cbf0b4378d8dc41567702242a92d548664893a6239ab887cc2a7cb1da016990bc099982bdb03460fa5dd05ce70cc0d8bd8f3052abf2764949c
+  languageName: node
+  linkType: hard
+
+"svg.js@npm:>=2.3.x, svg.js@npm:^2.0.1, svg.js@npm:^2.2.5, svg.js@npm:^2.4.0, svg.js@npm:^2.6.5":
+  version: 2.7.1
+  resolution: "svg.js@npm:2.7.1"
+  checksum: 10c0/b50eecb4effdf9ad6be4ddbfd0fcf4e44bd1f6318b2dbbffe3fe639cbe556c9ac8253345f6c6e3734ba84b35472b975e359fb689c9795efb11be6cbba9d7bcfd
+  languageName: node
+  linkType: hard
+
+"svg.pathmorphing.js@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "svg.pathmorphing.js@npm:0.1.3"
+  dependencies:
+    svg.js: "npm:^2.4.0"
+  checksum: 10c0/68e7f70fc900365bdb2fdc8aeb4b3fd8e7ac753a58e4cd43f935723991ab778af91a314c94343e64d77a5374638b880ebba3e286e6be3c8debcdec220bba39ab
+  languageName: node
+  linkType: hard
+
+"svg.resize.js@npm:^1.4.3":
+  version: 1.4.3
+  resolution: "svg.resize.js@npm:1.4.3"
+  dependencies:
+    svg.js: "npm:^2.6.5"
+    svg.select.js: "npm:^2.1.2"
+  checksum: 10c0/0ebdb3dd2e93cc14831e9e017c45d435ba0fdf26cd877411d2da7390a18035dd3754ffd5e1a18e50098da9ea5bb72dad49ba8f4993249bf29847efed72b0440a
+  languageName: node
+  linkType: hard
+
+"svg.select.js@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "svg.select.js@npm:2.1.2"
+  dependencies:
+    svg.js: "npm:^2.2.5"
+  checksum: 10c0/6e7dfcca97ed85b5ba0018c192dbb0d08cee9943d532749f4323ca1bde0d6c797e028f0305c8da48385b41812254d6ef237f7dabd8a4c4d3a1a13e35af8e5db2
+  languageName: node
+  linkType: hard
+
+"svg.select.js@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "svg.select.js@npm:3.0.1"
+  dependencies:
+    svg.js: "npm:^2.6.5"
+  checksum: 10c0/c629447aa77dccdc5091adef8d2ce146d6b75c0c0ece383e6dfc14911a7faca6177a091a554f4450c4e4d80c36e18b5fd8b2b15f9f85beec3a95a67c5e87c33f
+  languageName: node
+  linkType: hard
+
 "tapable@npm:^2.0.0, tapable@npm:^2.1.1, tapable@npm:^2.2.0, tapable@npm:^2.2.1":
   version: 2.2.1
   resolution: "tapable@npm:2.2.1"
@@ -5164,6 +5506,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tinymce@npm:^6.8.3":
+  version: 6.8.3
+  resolution: "tinymce@npm:6.8.3"
+  checksum: 10c0/92c1e70e9ed00efae66853f38e18e6720c27535a7617181971ed846a6e659da53ef2bf6e0871ea5e9f529eaed73fe8f2cbcf24f43ead336ef3d5100adb8e0b6a
+  languageName: node
+  linkType: hard
+
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0
   resolution: "to-fast-properties@npm:2.0.0"
@@ -5177,6 +5526,16 @@ __metadata:
   dependencies:
     is-number: "npm:^7.0.0"
   checksum: 10c0/487988b0a19c654ff3e1961b87f471702e708fa8a8dd02a298ef16da7206692e8552a0250e8b3e8759270f62e9d8314616f6da274734d3b558b1fc7b7724e892
+  languageName: node
+  linkType: hard
+
+"tom-select@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "tom-select@npm:2.3.1"
+  dependencies:
+    "@orchidjs/sifter": "npm:^1.0.3"
+    "@orchidjs/unicode-variants": "npm:^1.0.4"
+  checksum: 10c0/82267fbb10e3573e750aba8da12fe0bdcd71d155b2eb9e86c148bfa9a50a638ff911feaa23f9c8d09b069b47f3a52a766f291d4cf8f399e16be4082e119c1c75
   languageName: node
   linkType: hard
 
@@ -5291,6 +5650,13 @@ __metadata:
     file-loader:
       optional: true
   checksum: 10c0/71b6300e02ce26c70625eae1a2297c0737635038c62691bb3007ac33e85c0130efc74bfb444baf5c6b3bad5953491159d31d66498967d1417865d0c7e7cd1a64
+  languageName: node
+  linkType: hard
+
+"url-polyfill@npm:^1.1.12":
+  version: 1.1.12
+  resolution: "url-polyfill@npm:1.1.12"
+  checksum: 10c0/69633c42e3182271d01d2f2f4acd889a9f54b88fd7b2f45fd84fed19eca7cfa98fb6bfbd43d9cd9fad222a11a2dffb562b8435cdaa67fca5e25e3da638741679
   languageName: node
   linkType: hard
 
