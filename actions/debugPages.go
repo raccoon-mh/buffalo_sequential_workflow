@@ -8,15 +8,15 @@ import (
 	"github.com/gobuffalo/buffalo"
 )
 
-func RouteHandler(c buffalo.Context) error {
+func DEBUGRouteHandler(c buffalo.Context) error {
 	return c.Render(http.StatusOK, r.HTML("buffaloRoute/index.html"))
 }
 
-func WorkflowHandler(c buffalo.Context) error {
+func DEBUGWorkflowHandler(c buffalo.Context) error {
 	return c.Render(http.StatusOK, r.HTML("flow/index.html"))
 }
 
-func TablerMainHandler(c buffalo.Context) error {
+func DEBUGTablerMainHandler(c buffalo.Context) error {
 	targetDir := "./templates/tabler"
 	files, err := ioutil.ReadDir(targetDir)
 	if err != nil {
@@ -33,7 +33,7 @@ func TablerMainHandler(c buffalo.Context) error {
 	return c.Render(http.StatusOK, r.HTML("tabler/main.html"))
 }
 
-func TablerHandler(c buffalo.Context) error {
+func DEBUGTablerHandler(c buffalo.Context) error {
 	target := c.Param("target")
 	target = "tabler/" + target + ".html"
 	return c.Render(http.StatusOK, r.HTML(target))

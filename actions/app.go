@@ -64,10 +64,10 @@ func App() *buffalo.App {
 		app.Use(translations())
 
 		// for debug
-		app.GET("/route", RouteHandler)
-		app.GET("/flow", WorkflowHandler)
-		app.GET("/tabler", TablerMainHandler)
-		app.GET("/tabler/{target}", TablerHandler)
+		app.GET("/route", DEBUGRouteHandler)
+		app.GET("/flow", DEBUGWorkflowHandler)
+		app.GET("/tabler", DEBUGTablerMainHandler)
+		app.GET("/tabler/{target}", DEBUGTablerHandler)
 
 		// init
 		app.GET("/", HomeHandler)
