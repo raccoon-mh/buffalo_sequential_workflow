@@ -1,7 +1,18 @@
-@import "~bootstrap/scss/bootstrap.scss";
+// default import
+// @import "~bootstrap/scss/bootstrap.scss";
 // @import "~@fortawesome/fontawesome-free/css/all.min.css";
-
 // @import "buffalo";
+
+// sequential-workflow-designer import
 @import '~sequential-workflow-designer/css/designer.css';
 @import '~sequential-workflow-designer/css/designer-light.css';
 @import '~sequential-workflow-designer/css/designer-dark.css';
+
+// tabler import
+@import '~@tabler/core/dist/css/tabler.css';
+@import '~@tabler/core/dist/css/tabler-flags.css';
+@import '~@tabler/core/dist/css/tabler-payments.css';
+@import '~@tabler/core/dist/css/tabler-vendors.css';
+
+@import '~@tabler/core/dist/css/demo.css';
+

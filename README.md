@@ -1,3 +1,11 @@
+# env
+```
+$ node -v
+v20.5.1
+$ npm -v
+9.8.0
+```
+
 # Welcome to Buffalo
 
 Thank you for choosing Buffalo for your web development needs.
