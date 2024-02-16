@@ -9,7 +9,7 @@ import (
 )
 
 func DEBUGRouteHandler(c buffalo.Context) error {
-	return c.Render(http.StatusOK, r.HTML("buffaloRoute/index.html"))
+	return c.Render(http.StatusOK, r.HTML("_debug/buffaloRoute/index.html"))
 }
 
 func DEBUGWorkflowHandler(c buffalo.Context) error {
@@ -17,7 +17,7 @@ func DEBUGWorkflowHandler(c buffalo.Context) error {
 }
 
 func DEBUGTablerMainHandler(c buffalo.Context) error {
-	targetDir := "./templates/tabler"
+	targetDir := "./templates/_debug/tabler"
 	files, err := ioutil.ReadDir(targetDir)
 	if err != nil {
 		return err
@@ -30,11 +30,15 @@ func DEBUGTablerMainHandler(c buffalo.Context) error {
 		list = append(list, strings.TrimRight(file.Name(), ".html"))
 	}
 	c.Set("files", list)
-	return c.Render(http.StatusOK, r.HTML("tabler/main.html"))
+	return c.Render(http.StatusOK, r.HTML("_debug/tabler/main.html"))
 }
 
 func DEBUGTablerHandler(c buffalo.Context) error {
 	target := c.Param("target")
 	target = "tabler/" + target + ".html"
 	return c.Render(http.StatusOK, r.HTML(target))
+}
+
+func DEBUGSamplePageHandler(c buffalo.Context) error {
+	return c.Render(http.StatusOK, r.HTML("_debug/tabler/main.html"))
 }
