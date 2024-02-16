@@ -1,6 +1,6 @@
 import ApexCharts from 'apexcharts';
 
-// @formatter:off
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-active-users-2'), {
         chart: {
@@ -68,10 +68,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-social-referrals'), {
         chart: {
@@ -155,10 +155,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-tasks-overview'), {
         chart: {
@@ -223,10 +223,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-demo-pie'), {
         chart: {
@@ -271,10 +271,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks'), {
         chart: {
@@ -342,10 +342,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-2'), {
         chart: {
@@ -407,10 +407,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-3'), {
         chart: {
@@ -479,10 +479,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-4'), {
         chart: {
@@ -544,10 +544,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-5'), {
         chart: {
@@ -609,10 +609,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-6'), {
         chart: {
@@ -681,10 +681,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-7'), {
         chart: {
@@ -746,10 +746,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-8'), {
         chart: {
@@ -820,10 +820,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-9'), {
         chart: {
@@ -895,10 +895,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-10'), {
         chart: {
@@ -970,10 +970,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-completion-tasks-11'), {
         chart: {
@@ -1046,10 +1046,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-tasks'), {
         chart: {
@@ -1120,10 +1120,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-line-stroke'), {
         chart: {
@@ -1188,10 +1188,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-stepline'), {
         chart: {
@@ -1241,10 +1241,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-temperature'), {
         chart: {
@@ -1312,10 +1312,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-area'), {
         chart: {
@@ -1384,10 +1384,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-area-spline'), {
         chart: {
@@ -1456,10 +1456,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-area-spline-stacked'), {
         chart: {
@@ -1529,10 +1529,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-spline'), {
         chart: {
@@ -1594,10 +1594,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-scatter'), {
         chart: {
@@ -1654,10 +1654,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new ApexCharts(document.getElementById('chart-combination'), {
         chart: {
@@ -1731,4 +1731,4 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 });
-// @formatter:on
+

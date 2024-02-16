@@ -72,6 +72,8 @@ func App() *buffalo.App {
 		// init
 		app.GET("/", HomeHandler)
 
+		app.GET("/login", AuthLoginHandler)
+
 		app.ServeFiles("/", http.FS(public.FS())) // serve files from the public directory
 	}
 
