@@ -5,6 +5,11 @@ v20.5.1
 $ npm -v
 9.8.0
 ```
+# debugmode
+you can access route list below path
+```
+http://localhost:3000/debug
+```
 
 # Welcome to Buffalo
 

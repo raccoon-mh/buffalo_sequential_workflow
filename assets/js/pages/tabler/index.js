@@ -3,7 +3,7 @@ import ApexCharts from 'apexcharts';
 import jsVectorMap from 'jsvectormap';
 import 'jsvectormap/dist/maps/world.js';
 
-// @formatter:off
+
 document.addEventListener("DOMContentLoaded", function () {
     console.log(window.ApexCharts)
     window && (new ApexCharts(document.getElementById('chart-revenue-bg'), {
@@ -66,10 +66,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('chart-new-clients'), {
         chart: {
@@ -128,10 +128,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('chart-active-users'), {
         chart: {
@@ -192,10 +192,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('chart-mentions'), {
         chart: {
@@ -275,10 +275,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 
-// @formatter:on
 
 
-// @formatter:on
+
+
 
     const map = new jsVectorMap({
         selector: '#map-world',
@@ -303,10 +303,10 @@ document.addEventListener("DOMContentLoaded", function () {
         map.updateSize();
     });
 
-// @formatter:off
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('sparkline-activity'), {
         chart: {
@@ -342,10 +342,10 @@ document.addEventListener("DOMContentLoaded", function () {
         series: [35],
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('chart-development-activity'), {
         chart: {
@@ -410,10 +410,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('sparkline-bounce-rate-1'), {
         chart: {
@@ -440,10 +440,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }],
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('sparkline-bounce-rate-2'), {
         chart: {
@@ -470,10 +470,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }],
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('sparkline-bounce-rate-3'), {
         chart: {
@@ -500,10 +500,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }],
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('sparkline-bounce-rate-4'), {
         chart: {
@@ -530,10 +530,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }],
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('sparkline-bounce-rate-5'), {
         chart: {
@@ -560,10 +560,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }],
     })).render();
 
-// @formatter:on
 
 
-// @formatter:off
+
+
 
     window && (new ApexCharts(document.getElementById('sparkline-bounce-rate-6'), {
         chart: {
@@ -590,4 +590,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }],
     })).render();
 });
-// @formatter:on
+

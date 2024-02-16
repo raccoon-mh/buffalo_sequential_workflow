@@ -43,7 +43,7 @@ func App() *buffalo.App {
 	if app == nil {
 		app = buffalo.New(buffalo.Options{
 			Env:         ENV,
-			SessionName: "_buffalo_sequential_workflow_session",
+			SessionName: "raccoon-mh",
 		})
 
 		// Automatically redirect to SSL
@@ -63,14 +63,26 @@ func App() *buffalo.App {
 		// Setup and use translations:
 		app.Use(translations())
 
-		// for debug
-		app.GET("/route", DEBUGRouteHandler)
-		app.GET("/flow", DEBUGWorkflowHandler)
-		app.GET("/tabler", DEBUGTablerMainHandler)
-		app.GET("/tabler/{target}", DEBUGTablerHandler)
+		//////////////// debug section start ////////////////
+		debug := app.Group("/debug")
+		// common debug
+		debug.GET("/", DEBUGRouteHandler)
 
-		// init
+		// flowchart debug
+		debug.GET("/flow", DEBUGWorkflowHandler)
+
+		// tabler debug
+		debug.GET("/tabler", DEBUGTablerMainHandler)
+		debug.GET("/tabler/{target}", DEBUGTablerHandler)
+
+		// page sample
+		debug.GET("/sample", DEBUGSamplePageHandler)
+		//////////////// debug section end ////////////////
+
+		// pages
 		app.GET("/", HomeHandler)
+		app.GET("/home", HomeHandler)
+		app.GET("/login", AuthLoginHandler)
 
 		app.ServeFiles("/", http.FS(public.FS())) // serve files from the public directory
 	}

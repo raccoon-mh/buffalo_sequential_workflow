@@ -3,7 +3,7 @@ import Litepicker from 'litepicker';
 import * as noUiSlider from 'nouislider/dist/nouislider.min';
 import TomSelect from 'tom-select';
 
-// @formatter:off
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-states'), {
@@ -26,10 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (noUiSlider.create(document.getElementById('range-simple'), {
         start: 20,
@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (noUiSlider.create(document.getElementById('range-connect'), {
         start: [60, 90],
@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (noUiSlider.create(document.getElementById('range-color'), {
         start: 40,
@@ -71,10 +71,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new Litepicker({
         element: document.getElementById('datepicker-default'),
@@ -86,10 +86,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new Litepicker({
         element: document.getElementById('datepicker-icon'),
@@ -101,10 +101,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new Litepicker({
         element: document.getElementById('datepicker-icon-prepend'),
@@ -116,10 +116,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     window && (new Litepicker({
         element: document.getElementById('datepicker-inline'),
@@ -132,10 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
         inlineMode: true,
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-tags'), {
@@ -158,10 +158,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-users'), {
@@ -184,10 +184,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-optgroups'), {
@@ -210,10 +210,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-people'), {
@@ -236,10 +236,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-countries'), {
@@ -262,10 +262,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-labels'), {
@@ -288,10 +288,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-countries-valid'), {
@@ -314,10 +314,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
 
 
-// @formatter:off
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var el;
     window && (new TomSelect(el = document.getElementById('select-countries-invalid'), {
@@ -340,7 +340,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     }));
 });
-// @formatter:on
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
