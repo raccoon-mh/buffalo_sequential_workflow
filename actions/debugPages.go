@@ -13,7 +13,7 @@ func DEBUGRouteHandler(c buffalo.Context) error {
 }
 
 func DEBUGWorkflowHandler(c buffalo.Context) error {
-	return c.Render(http.StatusOK, r.HTML("flow/index.html"))
+	return c.Render(http.StatusOK, r.HTML("_debug/flow/index.html"))
 }
 
 func DEBUGTablerMainHandler(c buffalo.Context) error {
@@ -34,8 +34,7 @@ func DEBUGTablerMainHandler(c buffalo.Context) error {
 }
 
 func DEBUGTablerHandler(c buffalo.Context) error {
-	target := c.Param("target")
-	target = "tabler/" + target + ".html"
+	target := "_debug/tabler/" + c.Param("target") + ".html"
 	return c.Render(http.StatusOK, r.HTML(target))
 }
 

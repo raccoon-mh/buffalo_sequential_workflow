@@ -64,21 +64,23 @@ func App() *buffalo.App {
 		app.Use(translations())
 
 		//////////////// debug section start ////////////////
+		debug := app.Group("/debug")
 		// common debug
-		app.GET("/", DEBUGRouteHandler)
+		debug.GET("/", DEBUGRouteHandler)
 
 		// flowchart debug
-		app.GET("/flow", DEBUGWorkflowHandler)
+		debug.GET("/flow", DEBUGWorkflowHandler)
 
 		// tabler debug
-		app.GET("/tabler", DEBUGTablerMainHandler)
-		app.GET("/tabler/{target}", DEBUGTablerHandler)
+		debug.GET("/tabler", DEBUGTablerMainHandler)
+		debug.GET("/tabler/{target}", DEBUGTablerHandler)
 
 		// page sample
-		app.GET("/sample", DEBUGSamplePageHandler)
+		debug.GET("/sample", DEBUGSamplePageHandler)
 		//////////////// debug section end ////////////////
 
 		// pages
+		app.GET("/", HomeHandler)
 		app.GET("/home", HomeHandler)
 		app.GET("/login", AuthLoginHandler)
 
