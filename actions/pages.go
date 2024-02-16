@@ -7,7 +7,9 @@ import (
 )
 
 func HomeHandler(c buffalo.Context) error {
-	return c.Render(http.StatusOK, tr.HTML("home/index.html"))
+	c.Set("pretitle", "pretitle")
+	c.Set("title", "title")
+	return c.Render(http.StatusOK, tr.HTML("home/dash.html"))
 }
 
 // 로그인 폼 -> 로그인폼은 기본 렌더를 따름.
